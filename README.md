@@ -6,4 +6,4 @@
 
 ## How to start the backend
 
-### 
+### `docker compose up`
