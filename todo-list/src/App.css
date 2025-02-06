@@ -60,11 +60,11 @@ body{
   min-height: 100px;
   transform: translate(-50%,-50%);
 }
-#newtask{
+#new-task{
   position: relative;
   padding: 20px 20px;
 }
-#newtask input{
+#new-task input{
   width: 75%;
   height: 45px;
   padding: 12px;
@@ -77,11 +77,11 @@ body{
   border: 2px solid #d1d3d4;
 }
 
-#newtask input:focus{
+#new-task input:focus{
   outline: none;
   border-color: #ce0dec;
 }
-#newtask button{
+#new-task button{
   position: relative;
   float: right;
   font-weight: 500;
@@ -97,7 +97,6 @@ body{
   font-family: 'Poppins',sans-serif;
 }
 #tasks{
-  /*border-radius: 10px;*/
   width: 100%;
   position: relative;
   background-color: #ffffff;
@@ -106,12 +105,10 @@ body{
 }
 
 .task{
-  /*border-radius: 5px;*/
   align-items: center;
   justify-content: space-between;
   border: 1px solid #939697;
-  /*cursor: pointer;*/
-  background-color: #c5e1e6;
+  background-color: rgba(6, 152, 205, 0.5);
   height: 50px;
   margin-bottom: 8px;
   padding: 5px 10px;
@@ -123,11 +120,10 @@ body{
   font-weight: 400;
 }
 .task button{
-  background-color: #ffffff;
+  background-color: #cafbfa;
   border: 1px solid #939697;
   cursor: pointer;
   outline: none;
   height: 100%;
   width: 40px;
-  /*border-radius: no;*/
 }
